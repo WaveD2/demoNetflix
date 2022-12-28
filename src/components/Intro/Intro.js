@@ -15,11 +15,11 @@ const Intro = () => {
       <ReactPlayer
         playing={true}
         width="100%"
-        height="80vh"
+        height="90vh"
         volume={1}
         loop={true}
         muted={isMuted}
-        url="https://youtu.be/oeRG9A6bDdY"
+        url="https://vod-progressive.akamaized.net/exp=1672254304~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1418%2F19%2F482090170%2F2157351131.mp4~hmac=f01b89ea89f60976a9f75b216c0d53f9a4b1584983febffd834b1b41b61fdd76/vimeo-prod-skyfire-std-us/01/1418/19/482090170/2157351131.mp4"
         className="videoIntro"
       />
       <div className="infoIntro">
@@ -94,7 +94,7 @@ const IntroContainer = styled.div`
   }
    .btnVolume{
      position: absolute;
-     right: 10%;
+     right: 6%;
      bottom: 30%; 
      height: 40px;
      width: 40px;
