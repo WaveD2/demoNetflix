@@ -5,17 +5,6 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { setMovieDetail } from "../store/actions";
 
-const movieList = [
-  "https://i.pinimg.com/564x/69/68/b8/6968b898228eff3ad2f77d8ba0d97662.jpg",
-  "https://i.pinimg.com/564x/49/2c/fe/492cfe39e6abfbc528423299bb3cf5a1.jpg",
-  "https://i.pinimg.com/236x/10/2a/08/102a0883a386281d4e35f1e784ecac4f.jpg",
-  "https://i.pinimg.com/236x/81/1b/ff/811bffc6aee848307b8f7ff53b77e6e4.jpg",
-  "https://i.pinimg.com/564x/49/2c/fe/492cfe39e6abfbc528423299bb3cf5a1.jpg",
-  "https://i.pinimg.com/236x/10/2a/08/102a0883a386281d4e35f1e784ecac4f.jpg",
-  "https://i.pinimg.com/236x/81/1b/ff/811bffc6aee848307b8f7ff53b77e6e4.jpg",
-  "https://i.pinimg.com/564x/49/2c/fe/492cfe39e6abfbc528423299bb3cf5a1.jpg",
-];
-
 const SearchMovie = () => {
   const dispatch = useDispatch();
 
@@ -28,7 +17,7 @@ const SearchMovie = () => {
 
   return (
     <BoxSearchMovie>
-      {movieList && movieList.length > 0 ? (
+      {SearchMovie && SearchMovie.length > 0 ? (
         <div
           className="searchContent"
           style={{
