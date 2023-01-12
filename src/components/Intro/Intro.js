@@ -19,7 +19,7 @@ const Intro = () => {
         volume={1}
         loop={true}
         muted={isMuted}
-        url="https://vod-progressive.akamaized.net/exp=1672254304~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1418%2F19%2F482090170%2F2157351131.mp4~hmac=f01b89ea89f60976a9f75b216c0d53f9a4b1584983febffd834b1b41b61fdd76/vimeo-prod-skyfire-std-us/01/1418/19/482090170/2157351131.mp4"
+        url="https://www.youtube.com/watch?v=Ru4Jbmh7bcQ"
         className="videoIntro"
       />
       <div className="infoIntro">
